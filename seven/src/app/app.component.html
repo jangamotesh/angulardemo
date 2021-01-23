@@ -1,0 +1,39 @@
+
+<mat-toolbar>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>SEVEN WONDERS</span>
+  <span class="example-spacer"></span>
+  <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <mat-icon>favorite</mat-icon>
+  </button>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+    <mat-icon>share</mat-icon>
+  </button>
+</mat-toolbar>
+  <div>
+    <mat-tab-group>
+      <mat-tab label='Chichen Itza'><app-chichen-itza></app-chichen-itza></mat-tab>
+      <mat-tab label='Christ The Tedeemer'> <app-christthe-redeemer></app-christthe-redeemer> </mat-tab>
+      <mat-tab label='Colosseum'><app-colosseum></app-colosseum></mat-tab>
+      <mat-tab label='Great Wall ofChina'> <app-great-wallof-china></app-great-wallof-china> </mat-tab>
+      <mat-tab label='Machu Picchu'><app-machu-picchu></app-machu-picchu></mat-tab>
+      <mat-tab label='Petra'> <app-petra></app-petra> </mat-tab>
+      <mat-tab label='Taj Mahal'><app-taj-mahal></app-taj-mahal></mat-tab>
+      
+    </mat-tab-group>
+    
+
+     
+
+  </div>
+  <router-outlet></router-outlet>
+  <p>
+    <mat-toolbar color="primary">
+      <footer>&copy;janga</footer>
+
+    </mat-toolbar>
+  </p> 
+
+ 

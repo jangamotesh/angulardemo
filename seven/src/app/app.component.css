@@ -1,0 +1,22 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .mat-tab-group {
+    margin-bottom: 48px;
+  }
+
+
+  .example-button-row button,
+.example-button-row a {
+  margin-right: 18px;
+}
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+  
